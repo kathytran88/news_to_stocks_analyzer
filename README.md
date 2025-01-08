@@ -1,5 +1,5 @@
 # News to stock analyzer
-## Overview:
+## Overview
 Create a webpage that receives users' input (text of news articles) and outputs:
 - A summary of the article<br>
 - Sentiment report<br>
@@ -10,4 +10,6 @@ Create a webpage that receives users' input (text of news articles) and outputs:
 ## Description
 - Integrated NLP models using Hugging Face Transformers to summarize news articles, perform sentiment analysis, and identify affected organizations using SpaCy's NER (Named Entity Recognition).<br>
 - Predicted the stock market impact of news articles by correlating sentiment scores with stock price adjustments<br>
-- Leveraged yfinance API to fetch and analyze stock data.
+- Leveraged yfinance API to fetch and analyze stock data.<br>
+- Used Python BeautifulSoup to webscrape stock tickers<br>
+- Utilized Flask for local hosting<br>
